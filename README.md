@@ -6,13 +6,27 @@
 </h3>
 
 ## Dependencies
+
 - [Fcitx5](https://github.com/fcitx/fcitx5)
+
 ## Install
 
 **lazy.nvim**
+
 ```lua
 {
   "SR-MyStar/fcitx5-switch.nvim",
   config = true,
+}
+```
+
+if you only want inactivating fcitx5 when you on normal mode, you can add `recover = false` option.
+
+```lua
+{
+  "SR-MyStar/fcitx5-switch.nvim",
+  opts = {
+    recover = false,
+  },
 }
 ```
