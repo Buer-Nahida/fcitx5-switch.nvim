@@ -15,7 +15,7 @@
 
 ```lua
 {
-  "SR-MyStar/fcitx5-switch.nvim",
+  "Buer-Nahida/fcitx5-switch.nvim",
   config = true,
 }
 ```
@@ -24,7 +24,7 @@ if you only want inactivating fcitx5 when you on normal mode, you can add `recov
 
 ```lua
 {
-  "SR-MyStar/fcitx5-switch.nvim",
+  "Buer-Nahida/fcitx5-switch.nvim",
   opts = {
     recover = false,
   },
